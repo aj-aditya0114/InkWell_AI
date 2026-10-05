@@ -1,0 +1,9 @@
+langgraph
+langchain
+langchain-openai
+langchain-community
+openai
+pydantic
+python-dotenv
+tavily-python
+google-genai

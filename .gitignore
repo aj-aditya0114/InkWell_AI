@@ -1,0 +1,69 @@
+﻿# ==============================
+# Python Virtual Environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+env_/
+*.venv/
+
+# Project-specific virtual environments
+blog_env/
+blog-writing-env/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python Cache
+# ==============================
+__pycache__/
+*.py[cod]
+*.class
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Python Build Files
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
